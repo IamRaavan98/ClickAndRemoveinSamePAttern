@@ -1,0 +1,22 @@
+body{
+display: flex;
+justify-content: center;
+margin-top: 100px;
+}
+.box1,.box2,.box3{
+    border:solid;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+
+}
+.firstRow,.secondRow,.thirdRow{
+    display: flex;
+    flex-direction: row;
+    gap:50px
+}
